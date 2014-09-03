@@ -6,8 +6,8 @@
 </description>
     <link>/</link>
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Wed, 03 Sep 2014 12:07:24 +0530</pubDate>
-    <lastBuildDate>Wed, 03 Sep 2014 12:07:24 +0530</lastBuildDate>
+    <pubDate>Wed, 03 Sep 2014 12:15:13 +0530</pubDate>
+    <lastBuildDate>Wed, 03 Sep 2014 12:15:13 +0530</lastBuildDate>
     <generator>Jekyll v2.3.0</generator>
     
       <item>
@@ -34,8 +34,11 @@ Fig: 1.0 - Topology view&lt;/p&gt;
 	* Filter View
 	* Group Selection
 	* Actions
-	* Snapshot Info *** ### Instance Info
-Users can get the detailed information about any instance by hovering on instance box displayed in the topology view. 
+	* Snapshot Info ***
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h3 id=&quot;instance-info&quot;&gt;Instance Info&lt;/h3&gt;
+&lt;pre&gt;&lt;code&gt;Users can get the detailed information about any instance by hovering on instance box displayed in the topology view. 
 This information is shown inside 'Details' tab:
 
 	* Instance Id
@@ -47,16 +50,19 @@ This information is shown inside 'Details' tab:
 	* Processes
 &lt;/code&gt;&lt;/pre&gt;
 
+&lt;hr /&gt;
+
 &lt;p&gt;&lt;img src=&quot;/assets/images/instance_details01.png&quot; alt=&quot;instance details&quot; /&gt;&lt;br /&gt;
 Fig: 2.0 - Details of the selected instance&lt;/p&gt;
 
 &lt;hr /&gt;
-&lt;p&gt;### Group-By
-	Orchestrator allows you to easily customize the way instances are grouped. Instances can be hierarchically grouped
-	based on their properties and tags. This way of grouping enables you to define your own visualization of your site
-	Click on ‘Group by’ button provided in top navigation bar to see existing group-by options or to modify grouping.   &lt;/p&gt;
 
-&lt;pre&gt;&lt;code&gt;In this group-by dialog user can add, delete and re-order group by options before submitting them.
+&lt;h3 id=&quot;group-by&quot;&gt;Group-By&lt;/h3&gt;
+&lt;pre&gt;&lt;code&gt;Orchestrator allows you to easily customize the way instances are grouped. Instances can be hierarchically grouped
+based on their properties and tags. This way of grouping enables you to define your own visualization of your site
+Click on 'Group by' button provided in top navigation bar to see existing group-by options or to modify grouping.   
+
+In this group-by dialog user can add, delete and re-order group by options before submitting them.
 &lt;/code&gt;&lt;/pre&gt;
 
 &lt;p&gt;&lt;img src=&quot;/assets/images/groupby.png&quot; alt=&quot;group-by&quot; /&gt;&lt;br /&gt;
@@ -70,8 +76,11 @@ Fig 3.0 Group-By dialogue&lt;/p&gt;
 provided to help you find the instances by their properties and tags.
 When user search with a particlular parameters, all matched instances will be highlited.  
 
-While searching user can do flat search or a particular field/property search. *** ### Filter view
-To get the view of a specific group of instances, user can use filter view.
+While searching user can do flat search or a particular field/property search. ***
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h3 id=&quot;filter-view&quot;&gt;Filter view&lt;/h3&gt;
+&lt;pre&gt;&lt;code&gt;To get the view of a specific group of instances, user can use filter view.
 Click on 'Filter' button provided in topology toolbar. This will provide tree structure of groups and instances.
 Choose the groups you want to view. You can also search for a particular group from the tree and select for view.
 &lt;/code&gt;&lt;/pre&gt;
@@ -80,9 +89,11 @@ Choose the groups you want to view. You can also search for a particular group f
 Fig. 4.0 Filter dialogue to choose groups&lt;/p&gt;
 
 &lt;hr /&gt;
-&lt;p&gt;### Group Selection
-	To select all instances of a particular group click on the group area. This selection can be done in any group
-	level heirarically. To de-select click on outer rectangle.  &lt;/p&gt;
+
+&lt;h3 id=&quot;group-selection&quot;&gt;Group Selection&lt;/h3&gt;
+&lt;pre&gt;&lt;code&gt;To select all instances of a particular group click on the group area. This selection can be done in any group
+level heirarically. To de-select click on outer rectangle.  
+&lt;/code&gt;&lt;/pre&gt;
 
 &lt;p&gt;&lt;img src=&quot;/assets/images/groupselection.png&quot; alt=&quot;group selection&quot; /&gt;&lt;br /&gt;
 Fig 5.0 Group selection&lt;/p&gt;

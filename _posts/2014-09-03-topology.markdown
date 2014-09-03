@@ -30,6 +30,7 @@ Fig: 1.0 - Topology view
 		* Actions
 		* Snapshot Info
 ***
+
 ### Instance Info
 	Users can get the detailed information about any instance by hovering on instance box displayed in the topology view. 
 	This information is shown inside 'Details' tab:
@@ -42,10 +43,13 @@ Fig: 1.0 - Topology view
 		* Host name
 		* Processes
 
+---
+
 ![instance details][instancedetails]  
 Fig: 2.0 - Details of the selected instance
 
 ***
+
 ### Group-By
 	Orchestrator allows you to easily customize the way instances are grouped. Instances can be hierarchically grouped
 	based on their properties and tags. This way of grouping enables you to define your own visualization of your site
@@ -67,6 +71,7 @@ Fig 3.0 Group-By dialogue
 
 	While searching user can do flat search or a particular field/property search.
 ***
+
 ### Filter view
 	To get the view of a specific group of instances, user can use filter view.
 	Click on 'Filter' button provided in topology toolbar. This will provide tree structure of groups and instances.
@@ -76,6 +81,7 @@ Fig 3.0 Group-By dialogue
 Fig. 4.0 Filter dialogue to choose groups
 
 ***
+
 ### Group Selection
 	To select all instances of a particular group click on the group area. This selection can be done in any group
 	level heirarically. To de-select click on outer rectangle.  

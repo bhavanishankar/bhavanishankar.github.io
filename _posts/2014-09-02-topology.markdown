@@ -1,0 +1,52 @@
+---
+layout: post
+title:  "Topology!"
+date:   2014-09-03 20:30:34
+categories: jekyll update
+---
+## Topology View
+    In topology view all instances deployed in a cloud[aws] are shown as a cube in a graph. 
+    This cube height varies based on instance size.
+    Get a holistic view of the site and a clear perspective of the instances, details, statuses and connectivity.
+    Customize the way the instances are grouped and define your own view of your site.  
+
+    Orchestrator aims to provide a better visualization of the site and make more sense of the instances and their connectivity.
+
+**Legends:**
+	
+	Process Legends and Component legends are provided at the bottom of the screen.
+
+![topology view][topologyview]  
+Fig: 1.0 - Topology view
+
+	
+## Features
+		* Instance Info
+		* Group-By
+		* Search
+		* Filter View
+		* Group Selection
+		* Actions
+		* Snapshot Info
+***
+
+### Instance Info
+	Users can get the detailed information about any instance by hovering on instance box displayed in the topology view. 
+	This information is shown inside 'Details' tab:
+
+		* Instance Id
+		* Instance Type
+		* Public IP address
+		* Private IP address
+		* Tags
+		* Host name
+		* Processes
+
+![instance details][instancedetails]  
+Fig: 2.0 - Details of the selected instance
+
+
+***
+[topologyview]: /assets/images/topologyview.png
+[instancedetails]: /assets/images/instance_details01.png
+

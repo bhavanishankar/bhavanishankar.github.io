@@ -4,7 +4,8 @@ title:  "Topology!"
 date:   2014-09-03 20:30:34
 categories: jekyll update
 ---
-## Topology View
+
+Topology View
 ================
 
     In topology view all instances deployed in a cloud[aws] are shown as a cube in a graph. 
@@ -15,35 +16,35 @@ categories: jekyll update
     Orchestrator aims to provide a better visualization of the site and make more sense of the instances and their connectivity.
 
 **Legends:**
-	
-	Process Legends and Component legends are provided at the bottom of the screen.
+    
+    Process Legends and Component legends are provided at the bottom of the screen.
 
 ![topology view][topologyview]  
 Fig: 1.0 - Topology view
 
-	
+    
 ## Features
-		* Instance Info
-		* Group-By
-		* Search
-		* Filter View
-		* Group Selection
-		* Actions
-		* Snapshot Info
+        * Instance Info
+        * Group-By
+        * Search
+        * Filter View
+        * Group Selection
+        * Actions
+        * Snapshot Info
 
 ***
 ### Instance Info
 
-	Users can get the detailed information about any instance by hovering on instance box displayed in the topology view. 
-	This information is shown inside 'Details' tab:
+    Users can get the detailed information about any instance by hovering on instance box displayed in the topology view. 
+    This information is shown inside 'Details' tab:
 
-		* Instance Id
-		* Instance Type
-		* Public IP address
-		* Private IP address
-		* Tags
-		* Host name
-		* Processes
+        * Instance Id
+        * Instance Type
+        * Public IP address
+        * Private IP address
+        * Tags
+        * Host name
+        * Processes
 
 
 ![instance details][instancedetails]  
@@ -52,11 +53,11 @@ Fig: 2.0 - Details of the selected instance
 
 ***
 ### Group-By
-	Orchestrator allows you to easily customize the way instances are grouped. Instances can be hierarchically grouped
-	based on their properties and tags. This way of grouping enables you to define your own visualization of your site
-	Click on 'Group by' button provided in top navigation bar to see existing group-by options or to modify grouping.   
+    Orchestrator allows you to easily customize the way instances are grouped. Instances can be hierarchically grouped
+    based on their properties and tags. This way of grouping enables you to define your own visualization of your site
+    Click on 'Group by' button provided in top navigation bar to see existing group-by options or to modify grouping.   
 
-	In this group-by dialog user can add, delete and re-order group by options before submitting them.
+    In this group-by dialog user can add, delete and re-order group by options before submitting them.
 
 ![group-by][groupby]  
 Fig 3.0 Group-By dialogue
@@ -64,24 +65,25 @@ Fig 3.0 Group-By dialogue
 
 ***
 ### Search
-	Orchestrator provides you an extensive search functionality to highlight specific instances. An assisted search is 
-	provided to help you find the instances by their properties and tags.
-	When user search with a particlular parameters, all matched instances will be highlited.  
+    Orchestrator provides you an extensive search functionality to highlight specific instances. An assisted search is 
+    provided to help you find the instances by their properties and tags.
+    When user search with a particlular parameters, all matched instances will be highlited.  
 
-	While searching user can do flat search or a particular field/property search.
+    While searching user can do flat search or a particular field/property search.
+    
 ***
 ### Filter view
-	To get the view of a specific group of instances, user can use filter view.
-	Click on 'Filter' button provided in topology toolbar. This will provide tree structure of groups and instances.
-	Choose the groups you want to view. You can also search for a particular group from the tree and select for view.
+    To get the view of a specific group of instances, user can use filter view.
+    Click on 'Filter' button provided in topology toolbar. This will provide tree structure of groups and instances.
+    Choose the groups you want to view. You can also search for a particular group from the tree and select for view.
 
 ![filter][filter]  
 Fig. 4.0 Filter dialogue to choose groups
 
 ***
 ### Group Selection
-	To select all instances of a particular group click on the group area. This selection can be done in any group
-	level heirarically. To de-select click on outer rectangle.  
+    To select all instances of a particular group click on the group area. This selection can be done in any group
+    level heirarically. To de-select click on outer rectangle.  
 
 ![group selection][groupselection]  
 Fig 5.0 Group selection
@@ -89,41 +91,48 @@ Fig 5.0 Group selection
 
 ***
 ### Actions
-	Actions tab has 3 sub-tabs 
-		* Add Tags [ + ]
-		* Run Workflow [ > ]
-		* Terminal [ _> ]
+    Actions tab has 3 sub-tabs 
+        * Add Tags [ + ]
+        * Run Workflow [ > ]
+        * Terminal [ _> ]
 
 #### Add Tags
-	You can add virtual tags to instances to identify them better or enable better grouping. To add a tag select any
-	instance and click on '+' icon in the Actions panel and give key-value pair for the tag.
+    You can add virtual tags to instances to identify them better or enable better grouping. To add a tag select any
+    instance and click on '+' icon in the Actions panel and give key-value pair for the tag.
 ![add tags][addtags]  
 Fig 6.0 Add tags
 
 #### Run Workflow
-	You can run a worklow on a selected instance. Select any instance from graph and in the actions tab click on 'run workflow [ > ]' tab.
+    You can run a worklow on a selected instance. Select any instance from graph and in the actions tab click on 'run workflow [ > ]' tab.
 
 #### Terminal
-	Given the instance keys, Orchestrator allows the devops user to remotely connect to selected instances and run shell commands.
-	A typical terminal like view is provided for the user to run the commands.
+    Given the instance keys, Orchestrator allows the devops user to remotely connect to selected instances and run shell commands.
+    A typical terminal like view is provided for the user to run the commands.
 
 ***
 ### Snapshot Info
-	The topology also gives you the volume and snapshot information of all the selected instances. To see snapshot
-	information	of a particular instance, select any instance and click on 'snapshot' tab provided.
+    The topology also gives you the volume and snapshot information of all the selected instances. To see snapshot
+    information    of a particular instance, select any instance and click on 'snapshot' tab provided.
 ![snapshot info][snapshotinfo]  
 Fig 7.0 Image showing snapshot information of a particular instance.
 
 ***
 ### Instance Health
-	Monitor the health of the instances with a graphical view of monitoring information fetched from the configured APM
-	server.
+    Monitor the health of the instances with a graphical view of monitoring information fetched from the configured APM
+    server.
 
-	To monitor the health of an instance, you need to integrate APM Server [ graphite or newrelic ] with your site.
-	This will show last one hour data in a line chart for usage of memory, CPU and Disk.
+    To monitor the health of an instance, you need to integrate APM Server [ graphite or newrelic ] with your site.
+    This will show last one hour data in a line chart for usage of memory, CPU and Disk.
 ![cpu usage][cpuusage] ![disk usage][diskusage]
 
 ***
 [topologyview]: /assets/images/topologyview.png
 [instancedetails]: /assets/images/instance_details01.png
+[topologyview]: /assets/images/topologyview.png
+[groupby]: /assets/images/groupby.png
+[snapshotinfo]: /assets/images/snapshot.png
+[groupselection]: /assets/images/groupselection.png
+[addtags]: /assets/images/addtags.png
+[cpuusage]: /assets/images/cpu_usage.png
+[diskusage]: /assets/images/disk_usage.png
 

@@ -6,55 +6,55 @@
 </description>
     <link>/</link>
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Thu, 04 Sep 2014 11:14:44 +0530</pubDate>
-    <lastBuildDate>Thu, 04 Sep 2014 11:14:44 +0530</lastBuildDate>
+    <pubDate>Thu, 04 Sep 2014 11:35:35 +0530</pubDate>
+    <lastBuildDate>Thu, 04 Sep 2014 11:35:35 +0530</lastBuildDate>
     <generator>Jekyll v2.3.0</generator>
     
       <item>
         <title>Topology!</title>
         <description>&lt;h3 id=&quot;topology-view&quot;&gt;Topology View&lt;/h3&gt;
 
-&lt;pre&gt;&lt;code&gt;In topology view all instances deployed in a cloud[aws] are shown as a cube in a graph. 
+&lt;p&gt;In topology view all instances deployed in a cloud[aws] are shown as a cube in a graph. 
 This cube height varies based on instance size.
 Get a holistic view of the site and a clear perspective of the instances, details, statuses and connectivity.
-Customize the way the instances are grouped and define your own view of your site.  
+Customize the way the instances are grouped and define your own view of your site.  &lt;/p&gt;
 
-Orchestrator aims to provide a better visualization of the site and make more sense of the instances and their connectivity.
-&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Orchestrator aims to provide a better visualization of the site and make more sense of the instances and their connectivity.&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;Legends:&lt;/strong&gt;&lt;/p&gt;
 
-&lt;pre&gt;&lt;code&gt;Process Legends and Component legends are provided at the bottom of the screen.
-&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Process Legends and Component legends are provided at the bottom of the screen.&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;/assets/images/topologyview.png&quot; alt=&quot;topology view&quot; /&gt;&lt;br /&gt;
 Fig: 1.0 - Topology view&lt;/p&gt;
 
 &lt;h2 id=&quot;features&quot;&gt;Features&lt;/h2&gt;
-&lt;pre&gt;&lt;code&gt;    * Instance Info
-    * Group-By
-    * Search
-    * Filter View
-    * Group Selection
-    * Actions
-    * Snapshot Info
-&lt;/code&gt;&lt;/pre&gt;
+&lt;ul&gt;
+  &lt;li&gt;Instance Info&lt;/li&gt;
+  &lt;li&gt;Group-By&lt;/li&gt;
+  &lt;li&gt;Search&lt;/li&gt;
+  &lt;li&gt;Filter View&lt;/li&gt;
+  &lt;li&gt;Group Selection&lt;/li&gt;
+  &lt;li&gt;Actions&lt;/li&gt;
+  &lt;li&gt;Snapshot Info&lt;/li&gt;
+&lt;/ul&gt;
 
 &lt;hr /&gt;
 
 &lt;h3 id=&quot;instance-info&quot;&gt;Instance Info&lt;/h3&gt;
 
-&lt;pre&gt;&lt;code&gt;Users can get the detailed information about any instance by hovering on instance box displayed in the topology view. 
-This information is shown inside 'Details' tab:
+&lt;p&gt;Users can get the detailed information about any instance by hovering on instance box displayed in the topology view. 
+This information is shown inside ‘Details’ tab:&lt;/p&gt;
 
-    * Instance Id
-    * Instance Type
-    * Public IP address
-    * Private IP address
-    * Tags
-    * Host name
-    * Processes
-&lt;/code&gt;&lt;/pre&gt;
+&lt;ul&gt;
+  &lt;li&gt;Instance Id&lt;/li&gt;
+  &lt;li&gt;Instance Type&lt;/li&gt;
+  &lt;li&gt;Public IP address&lt;/li&gt;
+  &lt;li&gt;Private IP address&lt;/li&gt;
+  &lt;li&gt;Tags&lt;/li&gt;
+  &lt;li&gt;Host name&lt;/li&gt;
+  &lt;li&gt;Processes&lt;/li&gt;
+&lt;/ul&gt;
 
 &lt;p&gt;&lt;img src=&quot;/assets/images/instance_details01.png&quot; alt=&quot;instance details&quot; /&gt;&lt;br /&gt;
 Fig: 2.0 - Details of the selected instance&lt;/p&gt;
@@ -63,12 +63,11 @@ Fig: 2.0 - Details of the selected instance&lt;/p&gt;
 
 &lt;h3 id=&quot;group-by&quot;&gt;Group-By&lt;/h3&gt;
 
-&lt;pre&gt;&lt;code&gt;Orchestrator allows you to easily customize the way instances are grouped. Instances can be hierarchically grouped
+&lt;p&gt;Orchestrator allows you to easily customize the way instances are grouped. Instances can be hierarchically grouped
 based on their properties and tags. This way of grouping enables you to define your own visualization of your site
-Click on 'Group by' button provided in top navigation bar to see existing group-by options or to modify grouping.   
+Click on ‘Group by’ button provided in top navigation bar to see existing group-by options or to modify grouping.   &lt;/p&gt;
 
-In this group-by dialog user can add, delete and re-order group by options before submitting them.
-&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;In this group-by dialog user can add, delete and re-order group by options before submitting them.&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;/assets/images/groupby.png&quot; alt=&quot;group-by&quot; /&gt;&lt;br /&gt;
 Fig 3.0 Group-By dialogue&lt;/p&gt;
@@ -77,21 +76,19 @@ Fig 3.0 Group-By dialogue&lt;/p&gt;
 
 &lt;h3 id=&quot;search&quot;&gt;Search&lt;/h3&gt;
 
-&lt;pre&gt;&lt;code&gt;Orchestrator provides you an extensive search functionality to highlight specific instances. An assisted search is 
+&lt;p&gt;Orchestrator provides you an extensive search functionality to highlight specific instances. An assisted search is 
 provided to help you find the instances by their properties and tags.
-When user search with a particlular parameters, all matched instances will be highlited.  
+When user search with a particlular parameters, all matched instances will be highlited.  &lt;/p&gt;
 
-While searching user can do flat search or a particular field/property search.
-&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;While searching user can do flat search or a particular field/property search.&lt;/p&gt;
 
 &lt;hr /&gt;
 
 &lt;h3 id=&quot;filter-view&quot;&gt;Filter view&lt;/h3&gt;
 
-&lt;pre&gt;&lt;code&gt;To get the view of a specific group of instances, user can use filter view.
-Click on 'Filter' button provided in topology toolbar. This will provide tree structure of groups and instances.
-Choose the groups you want to view. You can also search for a particular group from the tree and select for view.
-&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;To get the view of a specific group of instances, user can use filter view.
+Click on ‘Filter’ button provided in topology toolbar. This will provide tree structure of groups and instances.
+Choose the groups you want to view. You can also search for a particular group from the tree and select for view.&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;/assets/images/view_filter01.png&quot; alt=&quot;filter&quot; /&gt;&lt;br /&gt;
 Fig. 4.0 Filter dialogue to choose groups&lt;/p&gt;
@@ -100,9 +97,8 @@ Fig. 4.0 Filter dialogue to choose groups&lt;/p&gt;
 
 &lt;h3 id=&quot;group-selection&quot;&gt;Group Selection&lt;/h3&gt;
 
-&lt;pre&gt;&lt;code&gt;To select all instances of a particular group click on the group area. This selection can be done in any group
-level heirarically. To de-select click on outer rectangle.  
-&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;To select all instances of a particular group click on the group area. This selection can be done in any group
+level heirarically. To de-select click on outer rectangle.  &lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;/assets/images/groupselection.png&quot; alt=&quot;group selection&quot; /&gt;&lt;br /&gt;
 Fig 5.0 Group selection&lt;/p&gt;
@@ -110,39 +106,34 @@ Fig 5.0 Group selection&lt;/p&gt;
 &lt;hr /&gt;
 
 &lt;h3 id=&quot;actions&quot;&gt;Actions&lt;/h3&gt;
-&lt;pre&gt;&lt;code&gt;Actions tab has 3 sub-tabs 
-    * Add Tags [ + ]
-    * Run Workflow [ &amp;gt; ]
-    * Terminal [ _&amp;gt; ]
-&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Actions tab has 3 sub-tabs 
+* Add Tags [ + ]
+* Run Workflow [ &amp;gt; ]
+* Terminal [ _&amp;gt; ]&lt;/p&gt;
 
 &lt;h4 id=&quot;add-tags&quot;&gt;Add Tags&lt;/h4&gt;
 
-&lt;pre&gt;&lt;code&gt;You can add virtual tags to instances to identify them better or enable better grouping. To add a tag select any
-instance and click on '+' icon in the Actions panel and give key-value pair for the tag.
-&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;You can add virtual tags to instances to identify them better or enable better grouping. To add a tag select any
+instance and click on ‘+’ icon in the Actions panel and give key-value pair for the tag.&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;/assets/images/addtags.png&quot; alt=&quot;add tags&quot; /&gt;&lt;br /&gt;
 Fig 6.0 Add tags&lt;/p&gt;
 
 &lt;h4 id=&quot;run-workflow&quot;&gt;Run Workflow&lt;/h4&gt;
 
-&lt;pre&gt;&lt;code&gt;You can run a worklow on a selected instance. Select any instance from graph and in the actions tab click on 'run workflow [ &amp;gt; ]' tab.
-&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;You can run a worklow on a selected instance. Select any instance from graph and in the actions tab click on ‘run workflow [ &amp;gt; ]’ tab.&lt;/p&gt;
 
 &lt;h4 id=&quot;terminal&quot;&gt;Terminal&lt;/h4&gt;
 
-&lt;pre&gt;&lt;code&gt;Given the instance keys, Orchestrator allows the devops user to remotely connect to selected instances and run shell commands.
-A typical terminal like view is provided for the user to run the commands.
-&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Given the instance keys, Orchestrator allows the devops user to remotely connect to selected instances and run shell commands.
+A typical terminal like view is provided for the user to run the commands.&lt;/p&gt;
 
 &lt;hr /&gt;
 
 &lt;h3 id=&quot;snapshot-info&quot;&gt;Snapshot Info&lt;/h3&gt;
 
-&lt;pre&gt;&lt;code&gt;The topology also gives you the volume and snapshot information of all the selected instances. To see snapshot
-information    of a particular instance, select any instance and click on 'snapshot' tab provided.
-&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;The topology also gives you the volume and snapshot information of all the selected instances. To see snapshot
+information    of a particular instance, select any instance and click on ‘snapshot’ tab provided.&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;/assets/images/snapshot.png&quot; alt=&quot;snapshot info&quot; /&gt;&lt;br /&gt;
 Fig 7.0 Image showing snapshot information of a particular instance.&lt;/p&gt;
@@ -151,12 +142,11 @@ Fig 7.0 Image showing snapshot information of a particular instance.&lt;/p&gt;
 
 &lt;h3 id=&quot;instance-health&quot;&gt;Instance Health&lt;/h3&gt;
 
-&lt;pre&gt;&lt;code&gt;Monitor the health of the instances with a graphical view of monitoring information fetched from the configured APM
-server.
+&lt;p&gt;Monitor the health of the instances with a graphical view of monitoring information fetched from the configured APM
+server.&lt;/p&gt;
 
-To monitor the health of an instance, you need to integrate APM Server [ graphite or newrelic ] with your site.
-This will show last one hour data in a line chart for usage of memory, CPU and Disk.
-&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;To monitor the health of an instance, you need to integrate APM Server [ graphite or newrelic ] with your site.
+This will show last one hour data in a line chart for usage of memory, CPU and Disk.&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;/assets/images/cpu_usage.png&quot; alt=&quot;cpu usage&quot; /&gt; &lt;img src=&quot;/assets/images/disk_usage.png&quot; alt=&quot;disk usage&quot; /&gt;&lt;/p&gt;
 

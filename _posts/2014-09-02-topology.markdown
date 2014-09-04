@@ -102,7 +102,9 @@ Fig 5.0 Group selection
 ***
 
 ### Actions
-Actions tab has 3 sub-tabs 
+
+## Actions tab has 3 sub-tabs 
+
 * Add Tags [ + ]
 * Run Workflow [ > ]
 * Terminal [ _> ]

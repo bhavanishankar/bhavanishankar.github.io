@@ -6,8 +6,8 @@
 </description>
     <link>/</link>
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Thu, 04 Sep 2014 11:35:35 +0530</pubDate>
-    <lastBuildDate>Thu, 04 Sep 2014 11:35:35 +0530</lastBuildDate>
+    <pubDate>Thu, 04 Sep 2014 11:39:26 +0530</pubDate>
+    <lastBuildDate>Thu, 04 Sep 2014 11:39:26 +0530</lastBuildDate>
     <generator>Jekyll v2.3.0</generator>
     
       <item>
@@ -106,10 +106,14 @@ Fig 5.0 Group selection&lt;/p&gt;
 &lt;hr /&gt;
 
 &lt;h3 id=&quot;actions&quot;&gt;Actions&lt;/h3&gt;
-&lt;p&gt;Actions tab has 3 sub-tabs 
-* Add Tags [ + ]
-* Run Workflow [ &amp;gt; ]
-* Terminal [ _&amp;gt; ]&lt;/p&gt;
+
+&lt;h2 id=&quot;actions-tab-has-3-sub-tabs&quot;&gt;Actions tab has 3 sub-tabs&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Add Tags [ + ]&lt;/li&gt;
+  &lt;li&gt;Run Workflow [ &amp;gt; ]&lt;/li&gt;
+  &lt;li&gt;Terminal [ _&amp;gt; ]&lt;/li&gt;
+&lt;/ul&gt;
 
 &lt;h4 id=&quot;add-tags&quot;&gt;Add Tags&lt;/h4&gt;
 

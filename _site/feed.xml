@@ -6,8 +6,8 @@
 </description>
     <link>/</link>
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Wed, 10 Sep 2014 12:22:19 +0530</pubDate>
-    <lastBuildDate>Wed, 10 Sep 2014 12:22:19 +0530</lastBuildDate>
+    <pubDate>Wed, 10 Sep 2014 14:49:13 +0530</pubDate>
+    <lastBuildDate>Wed, 10 Sep 2014 14:49:13 +0530</lastBuildDate>
     <generator>Jekyll v2.3.0</generator>
     
       <item>
@@ -88,10 +88,14 @@ Fig: 5.0 - Switch to GUI&lt;/p&gt;
 &lt;hr /&gt;
 
 </description>
-        <pubDate>Wed, 10 Sep 2014 00:00:00 +0530</pubDate>
-        <link>/2014/09/10/terminal.html</link>
-        <guid isPermaLink="true">/2014/09/10/terminal.html</guid>
+        <pubDate>Thu, 11 Sep 2014 02:00:34 +0530</pubDate>
+        <link>/jekyll/update/2014/09/11/terminal.html</link>
+        <guid isPermaLink="true">/jekyll/update/2014/09/11/terminal.html</guid>
         
+        
+        <category>jekyll</category>
+        
+        <category>update</category>
         
       </item>
     

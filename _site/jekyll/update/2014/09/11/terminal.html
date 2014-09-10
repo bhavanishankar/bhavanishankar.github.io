@@ -6,12 +6,12 @@
     <meta name="viewport" content="width=device-width">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-    <title>Front-End Web</title>
+    <title>Terminal</title>
     <meta name="description" content="A playground for my experiments. To demonstrate my knowledge by writing blogs on some of the things I work.
 ">
 
     <link rel="stylesheet" href="/css/main.css">
-    <link rel="canonical" href="/">
+    <link rel="canonical" href="/jekyll/update/2014/09/11/terminal.html">
 </head>
 
 
@@ -58,39 +58,91 @@
 
     <div class="page-content">
       <div class="wrapper">
-        <div class="home">
+        <div class="post">
 
-  <h1 class="page-heading">Posts</h1>
+  <header class="post-header">
+    <h1 class="post-title">Terminal</h1>
+    <p class="post-meta">Sep 11, 2014</p>
+  </header>
 
-  <ul class="post-list">
-    
-      <li>
-        <span class="post-meta">Sep 11, 2014</span>
+  <article class="post-content">
+    <h2 id="terminal-view">Terminal View</h2>
+<p>Terminal view provides a facility to execute command, view the execution 
+status and report of all the instances selected from the topology. At the 
+top of the terminal view it shows the no of instances logged on.</p>
 
-        <h2>
-          <a class="post-link" href="/jekyll/update/2014/09/11/terminal.html">Terminal</a>
-        </h2>
-      </li>
-    
-      <li>
-        <span class="post-meta">Sep 4, 2014</span>
+<p><img src="/assets/images/terminalviewhome.png" alt="terminal view" /><br />
+Fig: 1.0 - Terminal view  </p>
 
-        <h2>
-          <a class="post-link" href="/jekyll/update/2014/09/04/topology.html">Topology!</a>
-        </h2>
-      </li>
-    
-      <li>
-        <span class="post-meta">Sep 3, 2014</span>
+<h2 id="features">Features</h2>
+<ul>
+  <li>Switch Instances</li>
+  <li>Execution Status</li>
+  <li>Drag and Drop to Report</li>
+  <li>Execution Report</li>
+  <li>Switch to GUI</li>
+</ul>
 
-        <h2>
-          <a class="post-link" href="/jekyll/update/2014/09/03/welcome-to-jekyll.html">Welcome to Jekyll!</a>
-        </h2>
-      </li>
-    
-  </ul>
+<hr />
 
-  <p class="rss-subscribe">subscribe <a href="/feed.xml">via RSS</a></p>
+<h3 id="switch-instances">Switch Instances</h3>
+
+<p>Users can change the terminal for a specific instance by using the Switch<br />
+Instances tab. This tab contains links to switch the instance, where each <br />
+link shows the host name of the instance.</p>
+
+<p>Switching the instance changes the terminal view and now user can see all
+the command executed with command output for selected instance with the 
+host name at the top of the terminal.</p>
+
+<p><img src="/assets/images/switchinstance.png" alt="switch instance" /><br />
+Fig: 2.0 - Switch instance  </p>
+
+<hr />
+
+<h3 id="execution-status">Execution Status</h3>
+
+<p>User can see the command execution status on all the instances by using 
+the Execution Status tab. This tab contains each command with its execution 
+status in percentage shown as status bar.</p>
+
+<p><img src="/assets/images/executionstatus.png" alt="execution status" /><br />
+Fig: 3.0 - Status of command execution on all the instances  </p>
+
+<hr />
+
+<h3 id="drag-and-drop-to-report">Drag and Drop to Report</h3>
+
+<p>Terminal view provides a drag and drop mechanism where user can drag the 
+command’s output and drop into the report input box. System is intelligent 
+enough to take the command as the key for user report and dropped ouptut as 
+the value for the report. Adding the command’s output to the report for one
+instance automatically adds the same for all other insatances too. </p>
+
+<p><img src="/assets/images/reportdragdrop.png" alt="report drag and drop" /> <br />
+Fig: 4.1 - Drag and Drop for Report  </p>
+
+<hr />
+
+<h3 id="report">Report</h3>
+<p>Terminal provides user the facility to create a consolidated report with the
+executed terminal command and it’s output for all the instance.</p>
+
+<p><img src="/assets/images/report.png" alt="report" /> <br />
+Fig: 4.0 - Report  </p>
+
+<h3 id="switch-to-gui">Switch to GUI</h3>
+
+<p>To go to GUI again from the terminal view, user can click on Switch to GUI
+button provided at top right of terminal view. </p>
+
+<p><img src="/assets/images/switchtogui.png" alt="switch to gui" /><br />
+Fig: 5.0 - Switch to GUI</p>
+
+<hr />
+
+
+  </article>
 
 </div>
 

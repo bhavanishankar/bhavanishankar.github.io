@@ -31,6 +31,9 @@ Fig: 1.0 - Topology view
 * Actions
 * Snapshot Info
 
+
+<br/><br/>
+
 ***
 
 ### Instance Info
@@ -50,6 +53,7 @@ This information is shown inside 'Details' tab:
 ![instance details][instancedetails]  
 Fig: 2.0 - Details of the selected instance
 
+<br/><br/>
 
 ***
 
@@ -64,6 +68,7 @@ In this group-by dialog user can add, delete and re-order group by options befor
 ![group-by][groupby]  
 Fig 3.0 Group-By dialogue
 
+<br/><br/>
 
 ***
 
@@ -74,6 +79,8 @@ provided to help you find the instances by their properties and tags.
 When user search with a particlular parameters, all matched instances will be highlited.  
 
 While searching user can do flat search or a particular field/property search.
+
+<br/><br/>
 
 ***
 
@@ -88,6 +95,8 @@ Choose the groups you want to view. You can also search for a particular group f
 ![filter][filter]  
 Fig. 4.0 Filter dialogue to choose groups
 
+<br/><br/>
+
 ***
 
 ### Group Selection
@@ -98,6 +107,7 @@ level heirarically. To de-select click on outer rectangle.
 ![group selection][groupselection]  
 Fig 5.0 Group selection
 
+<br/><br/>
 
 ***
 
@@ -107,7 +117,7 @@ Fig 5.0 Group selection
 
 * Add Tags [ + ]
 * Run Workflow [ > ]
-* Terminal [ _> ]
+* Terminal [ >_ ]
 
 #### Add Tags
 
@@ -136,7 +146,10 @@ information    of a particular instance, select any instance and click on 'snaps
 ![snapshot info][snapshotinfo]  
 Fig 7.0 Image showing snapshot information of a particular instance.
 
+<br/><br/>
+
 ***
+
 
 ### Instance Health
 
@@ -151,12 +164,11 @@ This will show last one hour data in a line chart for usage of memory, CPU and D
 ***
 [topologyview]: /assets/images/topologyview.png
 [instancedetails]: /assets/images/instance_details01.png
-[filter]: /assets/images/view_filter01.png
-[topologyview]: /assets/images/topologyview.png
 [groupby]: /assets/images/groupby.png
-[snapshotinfo]: /assets/images/snapshot.png
+[filter]: /assets/images/view_filter01.png
 [groupselection]: /assets/images/groupselection.png
 [addtags]: /assets/images/addtags.png
+[snapshotinfo]: /assets/images/snapshot.png
 [cpuusage]: /assets/images/cpu_usage.png
 [diskusage]: /assets/images/disk_usage.png
 

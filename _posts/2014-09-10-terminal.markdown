@@ -1,0 +1,90 @@
+---
+layout: post
+title:  "Terminal"
+date:   2014-09-03 20:30:34
+categories: jekyll update
+---
+
+## Terminal View
+Terminal view provides a facility to execute command, view the execution 
+status and report of all the instances selected from the topology. At the 
+top of the terminal view it shows the no of instances logged on.
+
+![terminal view][terminalviewhome]  
+Fig: 1.0 - Terminal view  
+
+## Features
+* Switch Instances
+* Execution Status
+* Drag and Drop to Report
+* Execution Report
+* Switch to GUI
+
+***
+
+### Switch Instances
+
+Users can change the terminal for a specific instance by using the Switch  
+Instances tab. This tab contains links to switch the instance, where each   
+link shows the host name of the instance.
+
+Switching the instance changes the terminal view and now user can see all
+the command executed with command output for selected instance with the 
+host name at the top of the terminal.
+
+![switch instance][switchinstance]  
+Fig: 2.0 - Switch instance  
+
+***
+
+### Execution Status
+
+User can see the command execution status on all the instances by using 
+the Execution Status tab. This tab contains each command with its execution 
+status in percentage shown as status bar.
+
+![execution status][executionstatus]  
+Fig: 3.0 - Status of command execution on all the instances  
+
+***
+
+### Drag and Drop to Report
+
+Terminal view provides a drag and drop mechanism where user can drag the 
+command's output and drop into the report input box. System is intelligent 
+enough to take the command as the key for user report and dropped ouptut as 
+the value for the report. Adding the command's output to the report for one
+instance automatically adds the same for all other insatances too. 
+
+![report drag and drop][reportdragdrop]   
+Fig: 4.1 - Drag and Drop for Report  
+
+***
+
+### Report
+Terminal provides user the facility to create a consolidated report with the
+executed terminal command and it's output for all the instance.
+
+![report][report]   
+Fig: 4.0 - Report  
+
+
+### Switch to GUI
+
+To go to GUI again from the terminal view, user can click on Switch to GUI
+button provided at top right of terminal view. 
+
+![switch to gui][switchtogui]  
+Fig: 5.0 - Switch to GUI
+
+***
+
+[terminalviewhome]: /assets/images/terminalviewhome.png
+[switchinstance]: /assets/images/switchinstance.png
+[executionstatus]: /assets/images/executionstatus.png
+[reportdragdrop]: /assets/images/reportdragdrop.png
+[report]: /assets/images/report.png
+[switchtogui]: /assets/images/switchtogui.png
+
+
+

@@ -6,8 +6,8 @@
 </description>
     <link>/</link>
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Thu, 04 Sep 2014 11:39:26 +0530</pubDate>
-    <lastBuildDate>Thu, 04 Sep 2014 11:39:26 +0530</lastBuildDate>
+    <pubDate>Wed, 10 Sep 2014 10:54:07 +0530</pubDate>
+    <lastBuildDate>Wed, 10 Sep 2014 10:54:07 +0530</lastBuildDate>
     <generator>Jekyll v2.3.0</generator>
     
       <item>
@@ -39,6 +39,8 @@ Fig: 1.0 - Topology view&lt;/p&gt;
   &lt;li&gt;Snapshot Info&lt;/li&gt;
 &lt;/ul&gt;
 
+&lt;p&gt;&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
+
 &lt;hr /&gt;
 
 &lt;h3 id=&quot;instance-info&quot;&gt;Instance Info&lt;/h3&gt;
@@ -59,6 +61,8 @@ This information is shown inside ‘Details’ tab:&lt;/p&gt;
 &lt;p&gt;&lt;img src=&quot;/assets/images/instance_details01.png&quot; alt=&quot;instance details&quot; /&gt;&lt;br /&gt;
 Fig: 2.0 - Details of the selected instance&lt;/p&gt;
 
+&lt;p&gt;&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
+
 &lt;hr /&gt;
 
 &lt;h3 id=&quot;group-by&quot;&gt;Group-By&lt;/h3&gt;
@@ -72,6 +76,8 @@ Click on ‘Group by’ button provided in top navigation bar to see existing gr
 &lt;p&gt;&lt;img src=&quot;/assets/images/groupby.png&quot; alt=&quot;group-by&quot; /&gt;&lt;br /&gt;
 Fig 3.0 Group-By dialogue&lt;/p&gt;
 
+&lt;p&gt;&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
+
 &lt;hr /&gt;
 
 &lt;h3 id=&quot;search&quot;&gt;Search&lt;/h3&gt;
@@ -81,6 +87,8 @@ provided to help you find the instances by their properties and tags.
 When user search with a particlular parameters, all matched instances will be highlited.  &lt;/p&gt;
 
 &lt;p&gt;While searching user can do flat search or a particular field/property search.&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
 
 &lt;hr /&gt;
 
@@ -93,6 +101,8 @@ Choose the groups you want to view. You can also search for a particular group f
 &lt;p&gt;&lt;img src=&quot;/assets/images/view_filter01.png&quot; alt=&quot;filter&quot; /&gt;&lt;br /&gt;
 Fig. 4.0 Filter dialogue to choose groups&lt;/p&gt;
 
+&lt;p&gt;&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
+
 &lt;hr /&gt;
 
 &lt;h3 id=&quot;group-selection&quot;&gt;Group Selection&lt;/h3&gt;
@@ -103,6 +113,8 @@ level heirarically. To de-select click on outer rectangle.  &lt;/p&gt;
 &lt;p&gt;&lt;img src=&quot;/assets/images/groupselection.png&quot; alt=&quot;group selection&quot; /&gt;&lt;br /&gt;
 Fig 5.0 Group selection&lt;/p&gt;
 
+&lt;p&gt;&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
+
 &lt;hr /&gt;
 
 &lt;h3 id=&quot;actions&quot;&gt;Actions&lt;/h3&gt;
@@ -112,7 +124,7 @@ Fig 5.0 Group selection&lt;/p&gt;
 &lt;ul&gt;
   &lt;li&gt;Add Tags [ + ]&lt;/li&gt;
   &lt;li&gt;Run Workflow [ &amp;gt; ]&lt;/li&gt;
-  &lt;li&gt;Terminal [ _&amp;gt; ]&lt;/li&gt;
+  &lt;li&gt;Terminal [ &amp;gt;_ ]&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h4 id=&quot;add-tags&quot;&gt;Add Tags&lt;/h4&gt;
@@ -142,6 +154,8 @@ information    of a particular instance, select any instance and click on ‘sna
 &lt;p&gt;&lt;img src=&quot;/assets/images/snapshot.png&quot; alt=&quot;snapshot info&quot; /&gt;&lt;br /&gt;
 Fig 7.0 Image showing snapshot information of a particular instance.&lt;/p&gt;
 
+&lt;p&gt;&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
+
 &lt;hr /&gt;
 
 &lt;h3 id=&quot;instance-health&quot;&gt;Instance Health&lt;/h3&gt;
@@ -160,6 +174,95 @@ This will show last one hour data in a line chart for usage of memory, CPU and D
         <pubDate>Thu, 04 Sep 2014 02:00:34 +0530</pubDate>
         <link>/jekyll/update/2014/09/04/topology.html</link>
         <guid isPermaLink="true">/jekyll/update/2014/09/04/topology.html</guid>
+        
+        
+        <category>jekyll</category>
+        
+        <category>update</category>
+        
+      </item>
+    
+      <item>
+        <title>Terminal</title>
+        <description>&lt;h2 id=&quot;terminal-view&quot;&gt;Terminal View&lt;/h2&gt;
+&lt;p&gt;Terminal view provides a facility to execute command, view the execution 
+status and report of all the instances selected from the topology. At the 
+top of the terminal view it shows the no of instances logged on.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/terminalviewhome.png&quot; alt=&quot;terminal view&quot; /&gt;&lt;br /&gt;
+Fig: 1.0 - Terminal view  &lt;/p&gt;
+
+&lt;h2 id=&quot;features&quot;&gt;Features&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;Switch Instances&lt;/li&gt;
+  &lt;li&gt;Execution Status&lt;/li&gt;
+  &lt;li&gt;Drag and Drop to Report&lt;/li&gt;
+  &lt;li&gt;Execution Report&lt;/li&gt;
+  &lt;li&gt;Switch to GUI&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;h3 id=&quot;switch-instances&quot;&gt;Switch Instances&lt;/h3&gt;
+
+&lt;p&gt;Users can change the terminal for a specific instance by using the Switch&lt;br /&gt;
+Instances tab. This tab contains links to switch the instance, where each &lt;br /&gt;
+link shows the host name of the instance.&lt;/p&gt;
+
+&lt;p&gt;Switching the instance changes the terminal view and now user can see all
+the command executed with command output for selected instance with the 
+host name at the top of the terminal.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/switchinstance.png&quot; alt=&quot;switch instance&quot; /&gt;&lt;br /&gt;
+Fig: 2.0 - Switch instance  &lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h3 id=&quot;execution-status&quot;&gt;Execution Status&lt;/h3&gt;
+
+&lt;p&gt;User can see the command execution status on all the instances by using 
+the Execution Status tab. This tab contains each command with its execution 
+status in percentage shown as status bar.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/executionstatus.png&quot; alt=&quot;execution status&quot; /&gt;&lt;br /&gt;
+Fig: 3.0 - Status of command execution on all the instances  &lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h3 id=&quot;drag-and-drop-to-report&quot;&gt;Drag and Drop to Report&lt;/h3&gt;
+
+&lt;p&gt;Terminal view provides a drag and drop mechanism where user can drag the 
+command’s output and drop into the report input box. System is intelligent 
+enough to take the command as the key for user report and dropped ouptut as 
+the value for the report. Adding the command’s output to the report for one
+instance automatically adds the same for all other insatances too. &lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/reportdragdrop.png&quot; alt=&quot;report drag and drop&quot; /&gt; &lt;br /&gt;
+Fig: 4.1 - Drag and Drop for Report  &lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h3 id=&quot;report&quot;&gt;Report&lt;/h3&gt;
+&lt;p&gt;Terminal provides user the facility to create a consolidated report with the
+executed terminal command and it’s output for all the instance.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/report.png&quot; alt=&quot;report&quot; /&gt; &lt;br /&gt;
+Fig: 4.0 - Report  &lt;/p&gt;
+
+&lt;h3 id=&quot;switch-to-gui&quot;&gt;Switch to GUI&lt;/h3&gt;
+
+&lt;p&gt;To go to GUI again from the terminal view, user can click on Switch to GUI
+button provided at top right of terminal view. &lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/switchtogui.png&quot; alt=&quot;switch to gui&quot; /&gt;&lt;br /&gt;
+Fig: 5.0 - Switch to GUI&lt;/p&gt;
+
+&lt;hr /&gt;
+
+</description>
+        <pubDate>Thu, 04 Sep 2014 02:00:34 +0530</pubDate>
+        <link>/jekyll/update/2014/09/04/terminal.html</link>
+        <guid isPermaLink="true">/jekyll/update/2014/09/04/terminal.html</guid>
         
         
         <category>jekyll</category>

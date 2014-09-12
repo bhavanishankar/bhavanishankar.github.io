@@ -4,5 +4,7 @@ title: Contact Us
 permalink: /contactus/
 ---
 
-ABC corp
-JNTU, Hyd
+mail: bshankar4u[at]gmail.com
+
+Hyderabad, India
+
